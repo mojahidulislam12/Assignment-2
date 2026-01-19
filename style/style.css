@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #412567;
+    background-color: #1A0B2E;
     color: white;
    
     margin: 0 auto;
@@ -89,15 +89,66 @@ nav ul li{
       background-color: transparent;
    
 }
-
-
-
-  
-
-   
-
 .imag2{
     margin-top: -1000px;
     margin-bottom: 110px;
   
 }
+/* About section */
+.about{
+    background-color: #1A0B2E;
+    
+    color: #FFFFFF;
+}
+.about-text{
+    margin-top: -50px;
+    text-align: center;
+}
+.about-text h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #FFFFFF;
+   margin-bottom: 16px;
+}
+.about-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 20px;
+}
+.items{
+    display: flex;
+    flex-direction:row;
+     margin-left: 200px;
+     gap: 80px;
+     text-align: center;
+    
+    
+}
+hr{
+    width: 1200px;
+    height: 0px;
+    margin-top: 80px;
+    color: rgba(245, 245, 245, 0);
+ }
+.item{
+    /* border: 1px solid red; */
+    width: 240px;
+    height: 94px;
+    margin-top: 160px;
+    margin-bottom: 120px;
+    margin-top: 80px;
+   
+}
+.item h3{
+    font-size: 2.5rem;
+    color: #00FF88;
+    margin-top: -1px;
+    margin-bottom: 5px;
+}
+.item p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+ 
