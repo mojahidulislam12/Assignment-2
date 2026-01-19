@@ -1,7 +1,103 @@
+/* Header */
 .navbar{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     background-color: #412567;
     color: white;
+   
+    margin: 0 auto;
     
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+.btn1{
+    color: #FFFFFF;
+    width: 135px;
+    height: 44px;
+    padding: 16px;
+    border-radius: 10000px;
+    background: linear-gradient(to right top, #f7f73f,#FB09B4,#9100F8); 
+    font-size: 1rem;
+    
+    line-height: auto;
+
+}
+nav h3{
+    font-size:30px;
+    font-weight: 700;
+}
+nav h3 span{
+   background: linear-gradient(to top,#F7E93F,#FB09B4,#9100F8);
+   color: transparent;
+   -webkit-background-clip: text;
+   
+}
+nav ul li{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.banner{
+   
+    height: 760px;
+    background-image: url(../images/hero-bg.png);
+    margin: 0 auto;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+    
+
+}
+.banner-section{
+    margin-right: 80px;
+    text-align: center;
+}
+.banner-section .banner-text h3{
+    font-size: 3.75rem;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+.banner-section .banner-text h3 p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn2{
+    width: 201px;
+    height: 44px;
+    border-radius: 10000px;
+     background: linear-gradient(to right top, #f7f73f,#FB09B4,#9100F8); 
+     color: #FFFFFF;
+     font-size: 1rem;
+     font-weight: 600;
+}
+.btn3{
+    width: 147px;
+    height: 44px;
+    border-radius: 10000px;
+    color: #00FF88;
+     font-size: 1rem;
+     font-weight: 600;
+      background-color: transparent;
+   
+}
+
+
+
+  
+
+   
+
+.imag2{
+    margin-top: -1000px;
+    margin-bottom: 110px;
+  
 }
