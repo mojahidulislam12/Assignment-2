@@ -6,9 +6,33 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css">
+    <style>
+        .box1{
+            grid-column: span 1;
+            grid-row: span 2;
+            padding-top: 107px;
+             padding-left: 40px;
+        }
+        .box2{
+            grid-column: span 2;
+            grid-row: span 1;
+            padding-top: 40px;
+            padding-left: 40px;
+        }
+        .box3{
+            grid-column: span 2;
+            grid-row: span 1;
+            padding-top: 40px;
+            padding-left: 40px;
+        }
+        .box4{
+            padding-top: 40px;
+            padding-left: 40px;
+        }
+    </style>
 </head>
 <body>
-    <header>
+    <header class="bg">
         <nav class="navbar">
             <h3>Tech<span>Wave</span></h3>
             <ul>
@@ -41,7 +65,7 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="bg">
         <section class="about">
             <div class="about-text">
                 <h3>About the Podcast</h3>
@@ -71,10 +95,54 @@
             </div>
 
         </section>
-        <search class="techwave">
-            <h3>Why Choose TechWave</h3>
+        <section class="techwave">
+            <div  class="techwave-text">
+                <h3>Why Choose TechWave</h3>
+            </div>
+            <div class="boxs">
+                <div class="box box1">
+                    <img src="images/headphone.png" alt="">
+                    <h2>Premium Audio Quality</h2>
+                    <p class="box-text">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                </div>
+                <div class="box box2">
+                    <img src="images/headphone.png" alt="">
+                    <h2>Premium Audio Quality</h2>
+                    <p class="box-text">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                </div>
+                <div class="box box2">
+                    <img src="images/device.png" alt="">
+                    <h2>Mobile Friendly</h2>
+                    <p class="box-text">Listen on the go with seamless mobile experience and offline downloads.</p>
+                </div>
+                <div class="box box3">
+                    <img src="images/location.png" alt="">
+                    <h2>Global Community</h2>
+                    <p class="box-text">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+                </div>
+                <div class="box box4">
+                    <img src="images/resource.png" alt="">
+                    <h2>Rich Resources</h2>
+                    <p class="box-text">Access show notes, transcripts, and additional learning materials for every episode.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="featured-container">
+                <h3>Featured Episodes</h3>
+                <div class="featured">
+                    <div class="episodes">
+                        <iframe src="https://www.youtube.com/embed/xyJroe0gXKI" frameborder="0"></iframe>
+                    </div>
+                    <div class="episodes"></div>
+                    <div class="episodes"></div>
+                </div>
 
-        </search>
+            </div>
+            <div class="host">
+
+            </div>
+        </section>
     </main>
     <footer></footer>
     
