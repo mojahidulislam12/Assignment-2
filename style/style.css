@@ -5,17 +5,18 @@
     align-items: center;
     background-color: #1A0B2E;
     color: white;
-
     margin: 0 auto;
-
 }
-
 .navbar ul {
     list-style: none;
     display: flex;
     gap: 32px;
 }
-
+.navbar .menu ul{
+    margin-right: 250px;
+    font-size: 1rem;
+    font-weight: 500;
+}
 .btn1 {
     color: #FFFFFF;
     width: 135px;
@@ -24,31 +25,23 @@
     border-radius: 10000px;
     background: linear-gradient(to right top, #f7f73f, #FB09B4, #9100F8);
     font-size: 1rem;
-
     line-height: auto;
-
 }
-
 nav h3 {
     font-size: 30px;
     font-weight: 700;
 }
-
 nav h3 span {
     background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
     color: transparent;
     -webkit-background-clip: text;
-
 }
-
 nav ul li {
     font-size: 1rem;
     font-weight: 500;
     color: #FFFFFF;
 }
-
 .banner {
-
     height: 760px;
     background-image: url(../images/hero-bg.png);
     margin: 0 auto;
@@ -56,29 +49,21 @@ nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
-
-
 }
-
 .banner-section {
     margin-right: 65px;
     text-align: center;
 }
-
 .banner-section .banner-text h3 {
     font-size: 3.75rem;
     font-weight: 800;
     margin-top: 10px;
     margin-bottom: 24px;
 }
-
 .banner-section .banner-text h3 p {
     font-size: 1rem;
     font-weight: 400;
 }
-
 .btn2 {
     width: 201px;
     height: 44px;
@@ -88,7 +73,6 @@ nav ul li {
     font-size: 1rem;
     font-weight: 600;
 }
-
 .btn3 {
     width: 147px;
     height: 44px;
@@ -97,68 +81,48 @@ nav ul li {
     font-size: 1rem;
     font-weight: 600;
     background-color: transparent;
-
 }
-.imag{
-    
-}
-
 .imag2 {
     margin-top: -1000px;
     margin-bottom: 110px;
-   
-
 }
-
 .bg {
     background-color: #1A0B2E;
-
 }
-
 /* About section */
 .about {
     background-color: #1A0B2E;
-
     color: #FFFFFF;
 }
-
 .about-text {
     margin-top: -50px;
     text-align: center;
 }
-
 .about-text h3 {
     font-size: 3rem;
     font-weight: 700;
     color: #FFFFFF;
     margin-bottom: 16px;
 }
-
 .about-text p {
     font-size: 1rem;
     font-weight: 400;
     color: #FFFFFF;
     line-height: 20px;
 }
-
 .items {
     display: flex;
     flex-direction: row;
-   
-    margin-left: 200px;
+    margin-left: 400px;
     gap: 80px;
     text-align: center;
-
-
 }
-
 hr {
     width: 1200px;
     height: 0px;
     margin-top: 80px;
     color: rgba(245, 245, 245, 0);
 }
-
 .item {
     /* border: 1px solid red; */
     width: 240px;
@@ -166,60 +130,39 @@ hr {
     margin-top: 160px;
     margin-bottom: 120px;
     margin-top: 80px;
-
 }
-
 .item h3 {
     font-size: 2.5rem;
     color: #00FF88;
     margin-top: -1px;
     margin-bottom: 5px;
 }
-
 .item p {
     font-size: 1rem;
     font-weight: 400;
     color: #FFFFFF;
 }
-
 /* Tech wave */
 .techwave {
     height: 1121px;
     background-color: #230E3D;
     margin-bottom: 120px;
 }
-
 .techwave-text {
     padding: 110px;
-
-
 }
-
 .techwave h3 {
     font-size: 3rem;
     font-weight: 700;
     color: #FFFFFF;
     text-align: center;
-
-
-
-
-
-
 }
-
-
-
 .box {
-    /* border: 2px solid tomato; */
     border-radius: 40px;
-
     background-color: #351165;
 }
-
 .boxs {
     display: grid;
-    /* border: 1px solid red; */
     width: 1200px;
     height: 783px;
     margin: 0 auto;
@@ -228,122 +171,88 @@ hr {
     gap: 20px;
     margin-bottom: 120px;
     margin-top: -120px;
-
-
 }
-
 .boxs .box h2 {
     color: #FFFFFF;
     font-size: 1.5rem;
     font-weight: 700;
     margin-top: 16px;
 }
-
 .box-text {
     color: #FFFFFF;
     font-size: 1rem;
     font-weight: 400;
     margin-top: 16px;
-
 }
-
-
 .episodes1 h4 {
     color: #FFFFFF;
-
 }
-
 .featured-episodes {
     height: 1276px;
 }
-
 .featured {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
 }
-
 .featured-episodes {
     height: 1200px;
 }
-
 .featured-container {
-    /* border: 1px solid red; */
     width: 1200px;
     height: 538px;
     margin: 0 auto;
     margin-top: -117px;
     margin-bottom: 120px;
 }
-
 .featured-container h5 {
     font-size: 3rem;
     font-weight: 700;
     color: #FFFFFF;
     text-align: center;
     margin-bottom: 40px;
-
-
 }
-
 .episodes-text {
     color: #FFFFFF;
     line-height: 24px;
 }
-
 .featured {
-    /* border: 2px solid greenyellow; */
     width: 1200px;
     height: 440px;
     display: flex;
-
     gap: 29px;
-
 }
-
 .episodes {
-    /* border: 2px solid rebeccapurple; */
     width: 380px;
     background-color: #250D44;
     border-radius: 20px;
-
 }
-
 iframe {
     width: 375px;
     height: 220px;
-
 }
-
 .colore-share {
     font-size: 1.5rem;
     font-weight: 700;
     color: #FFFFFF;
     margin-bottom: 12px;
 }
-
 .colore-share-p {
     font-size: 1rem;
     font-weight: 600;
     color: #00FF88;
     margin-bottom: 24px;
 }
-
 .episode {
     padding-left: 24px;
     padding-right: 24px;
 }
-
-
 /* host-container */
 .host {
-
     width: 1200px;
     height: 400px;
     margin: 40px auto;
     padding-bottom: 120px;
-
 }
-
 .host-title {
     text-align: center;
     font-size: 3rem;
@@ -352,9 +261,7 @@ iframe {
     margin-bottom: 40px;
     margin-top: -50px;
 }
-
 .host-container {
-
     border-radius: 20px;
     width: 1121px;
     height: 280px;
@@ -366,30 +273,25 @@ iframe {
     background-color: #250D44;
     margin-bottom: -150px;
 }
-
 .host-container h1 {
     font-size: 2rem;
     font-weight: 700;
     color: #FFFFFF;
 }
-
 .host-container p {
     font-size: 1rem;
     font-weight: 400;
     color: #FFFFFF;
 }
-
 .host-container img {
     margin-right: 8px;
 }
-
 /* Footer Section */
 .footer-container {
     background-image: url(../images/footer-bg.png);
     margin-top: -20px;
     height: 300px;
 }
-
 .footer-title {
     color: #FFFFFF;
     font-size: 3rem;
@@ -397,14 +299,11 @@ iframe {
     margin-top: -120px;
     padding-top: 90px;
 }
-
 #wave {
     background: linear-gradient(to top, #F7E93F, #FB09B4, #9100F8);
     color: transparent;
     -webkit-background-clip: text;
-
 }
-
 .spotify,
 .copy-right {
     color: #FFFFFF;
@@ -413,9 +312,7 @@ iframe {
     margin-bottom: 32px;
     text-align: center;
 }
-
 .spotify {}
-
 .social {
     display: flex;
     gap: 40px;
@@ -425,74 +322,37 @@ iframe {
     margin-top: -70px;
     justify-content: center;
     align-items: center;
-
-
 }
-
 .footer-section {
-
-
-
     text-align: center;
-
 }
-
 #show {
     color: #FFFFFF;
     font-size: 2.25rem;
     display: none;
 }
-
 .menu {
     display: flex;
     justify-content: space-between;
     gap: 314px;
 }
-
+.host-container{
+    transition: width 5s linear 5s;   
+}
+.host-container:hover{
+   background-color: black;
+   color: black;
+   border: 3px solid red;
+}
 /* Responsive for mobile  */
-/* @media screen and (max-width:576px) {
-    .container {
-      
-    }
+/* MOBILE DEVICES (≤576px) */
 
-    .menu {
-        display: none;
-    }
-
-    #show {
-        display: block;
-    }
-    .imag{
-        width: 200px;
-        height: 200px;
-        margin-top: -220px;
-
-    }
-} */
-
-
-
-/* =================================
-   MOBILE DEVICES (≤576px)
-================================= */
-
-
-
-
-
-
-
-
-/* =================================
-   MOBILE DEVICES (≤576px)
-================================= */
 @media screen and (max-width:576px) {
-    
-
-
     /* GENERAL FIXES */
     body {
         overflow-x: hidden;
+        width: 85%;
+        margin-right: -15px;
     }
 
     img {
@@ -505,14 +365,14 @@ iframe {
         height: 180px;
     }
 
-    /* ================= NAVBAR ================= */
+    /*  NAVBAR  */
     .navbar {
         justify-content: space-between;
         padding: 12px 16px;
     }
     .btn-group{
         display: grid;
-        grid-template-rows: repeat(1,1fr);
+        grid-template-rows: repeat(2,1fr);
     }
 
     .menu {
@@ -543,10 +403,10 @@ iframe {
         cursor: pointer;
     }
 
-    /* ================= BANNER ================= */
+    /* BANNER  */
     .banner {
         height: auto;
-        padding: 70px 80px;
+        padding: 35px 40px;
         text-align: center;
     }
 
@@ -569,7 +429,7 @@ iframe {
         margin-bottom: 40px;
     }
 
-    /* ================= ABOUT ================= */
+    /* ABOUT */
     .about-text {
         margin-top: -40px;
         padding: 0 16px;
@@ -590,7 +450,7 @@ iframe {
        display: grid;
        grid-template-columns: repeat(2,1fr);
        grid-template-rows: repeat(2,1fr);
-       gap: 35px;
+       gap: 30px;
        margin-left: -62px;
     }
 
@@ -603,7 +463,7 @@ iframe {
         margin: 40px auto;
     }
 
-    /* ================= TECHWAVE ================= */
+    /* TECHWAVE */
     .techwave {
         height: auto;
         padding-bottom: 2px;
@@ -637,7 +497,7 @@ iframe {
         grid-row: span 1;
     }
 
-    /* ================= FEATURED ================= */
+    /*  FEATURED  */
     .featured-episodes {
         height: auto;
     }
@@ -667,7 +527,7 @@ iframe {
         margin-bottom: 50px;
     }
 
-    /* ================= HOST ================= */
+    /*  HOST */
     .host {
         width: 100%;
         height: auto;
@@ -688,7 +548,7 @@ iframe {
         margin-bottom: 40px;
     }
 
-    /* ================= FOOTER ================= */
+    /* FOOTER  */
     .footer-container {
         height: 248px;
         padding: 40px 16px;
