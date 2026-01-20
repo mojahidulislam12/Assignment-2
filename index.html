@@ -30,20 +30,26 @@
             padding-left: 40px;
             margin-bottom: 40px;
         }
+        .hidden{
+            display: none !important;
+        }
     </style>
 </head>
 <body>
-    <header class="bg">
+    <header class="bg container">
         <nav class="navbar">
             <h3>Tech<span>Wave</span></h3>
-            <ul>
+           <div class="menu">
+             <ul>
                 <li>About</li>
                 <li>Episodes</li>
                 <li>Host</li>
             </ul>
             <button class="btn1">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+           </div>
+           <span id="show">&Congruent;</span>
         </nav>
-        <section  class="banner" >
+        <section  class="banner " >
             <div class="banner-section">
                 <div class="imag">
                     <div class="imag1"><img src="images/hero-circle.png" alt=""> 
@@ -51,17 +57,17 @@
                             <img class="imag2" src="images/microphone.png" alt="">
                         </div>
                     </div>
-                   </div>
-                   <div class="TechWave">
+                </div>
+                <div class="TechWave">
                         <div class="banner-text">
                             <h3>TechWave</h3>
                             <p>Your daily dose of tech insights, productivity hacks, and personal growth</p>
                         </div>
-                        <div>
+                        <div class="btn-group">
                             <button class="btn2"><i class="fa-brands fa-spotify"></i> Listen on Spotify</button>
                             <button class="btn3"><i class="fa-regular fa-envelope"></i> Subscribe</button>
                         </div>
-                   </div>
+                </div>
 
             </div>
         </section>
@@ -186,7 +192,32 @@
             </div>
         </section>
     </main>
-    <footer class="bg footer-container">
+    <footer class="bg  footer-container">
+         <div class="footer-section">
+            <h5 class="footer-title">Tech <span id="wave">Wave</span></h5>
+            <div class="social">
+                <div class="spotify">
+                     <p><i class="fa-brands fa-spotify"></i> Spotify</p></div>
+                
+                
+                <div class="spotify">
+                     <p><i class="fa-solid fa-podcast"></i> Apple Podcasts</p></div>
+                
+                
+                <div class="spotify">
+                     <p><i class="fa-brands fa-youtube"></i> YouTube</p></div>
+                <div class="spotify">
+                     <p><i class="fa-brands fa-twitter"></i> Twitter</p></div>
+         </div>
+         <div class="copy-right">
+            <p>© 2026 TechWave Podcast. All rights reserved.</p>
+         </div>
+         </div>
+
+         
+
+
+
 
     </footer>
     
